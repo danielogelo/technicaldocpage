@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VS Code Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>VS Code Documentation</header>
+    <a href="#Introduction" class="nav-link">Introduction</a>
+    <a href="#Installation" class="nav-link">Installation</a>
+    <a href="#User_Interface" class="nav-link">User Interface</a>
+    <a href="#Extensions" class="nav-link">Extensions</a>
+    <a href="#Keyboard_Shortcuts" class="nav-link">Keyboard Shortcuts</a>
+  </nav>
+
+  <main id="main-doc">
+    <!-- SECTION 1 -->
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Visual Studio Code (VS Code) is a lightweight yet powerful source code editor used across many languages.</p>
+      <p>It includes built-in support for debugging, syntax highlighting, intelligent code completion, and more.</p>
+      <p>VS Code is available on Windows, macOS, and Linux.</p>
+      <p>Many developers choose VS Code because it is fast and highly customizable.</p>
+      <p>The editor can be extended easily with community-built plugins.</p>
+
+      <ul>
+        <li>Free and open source</li>
+        <li>Cross-platform</li>
+      </ul>
+
+      <code>console.log("Hello VS Code!");</code>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="main-section" id="Installation">
+      <header>Installation</header>
+      <p>You can install VS Code from the official website.</p>
+      <p>Choose the installer that matches your operating system.</p>
+      <p>After installation, launch VS Code to start customizing your setup.</p>
+
+      <ul>
+        <li>Windows Installer</li>
+        <li>macOS ZIP or Installer</li>
+        <li>Linux package</li>
+      </ul>
+
+      <code>sudo apt install code</code>
+      <code>brew install --cask visual-studio-code</code>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="main-section" id="User_Interface">
+      <header>User Interface</header>
+      <p>VS Code’s interface includes the Activity Bar, Side Bar, Editor Groups, and Status Bar.</p>
+      <p>The UI is fully customizable.</p>
+      <p>You can open multiple editors side by side.</p>
+
+      <ul>
+        <li>Activity Bar</li>
+        <li>Side Bar</li>
+        <li>Status Bar</li>
+      </ul>
+
+      <code>// Toggle Side Bar</code>
+      <code>View &gt; Appearance &gt; Show Side Bar</code>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="main-section" id="Extensions">
+      <header>Extensions</header>
+      <p>Extensions enhance VS Code by adding languages, themes, debuggers, and tools.</p>
+      <p>The Extensions Marketplace contains thousands of community-authored packages.</p>
+      <p>You can install, update, or disable extensions anytime.</p>
+
+      <ul>
+        <li>Python extension</li>
+        <li>Prettier formatter</li>
+      </ul>
+
+      <code>ext install ms-python.python</code>
+      <code>ext install esbenp.prettier-vscode</code>
+    </section>
+
+    <!-- SECTION 5 -->
+    <section class="main-section" id="Keyboard_Shortcuts">
+      <header>Keyboard Shortcuts</header>
+      <p>VS Code provides many shortcuts to improve workflow speed.</p>
+      <p>Shortcuts can be customized in the settings menu.</p>
+      <p>Keybindings are stored in a JSON file.</p>
+
+      <ul>
+        <li>Ctrl + Shift + P — Command Palette</li>
+        <li>Ctrl + B — Toggle Sidebar</li>
+      </ul>
+
+      <code>{
+  "key": "ctrl+b",
+  "command": "workbench.action.toggleSidebarVisibility"
+}</code>
+
+    </section>
+  </main>
+</body>
+</html>
